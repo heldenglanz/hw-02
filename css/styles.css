@@ -4,30 +4,20 @@
 }
 /*--------header-------*/
 .header {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px; c
-  background: #ffffff;
 }
 /*title*/
 .main-title {
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-font-family: Raleway, sans-serif
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+  width: 145px;
+  height: 31px;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 .studio-word {
-color: black;
+  color: black;
 }
 /*navigation*/
 .navigation-studio,
@@ -35,192 +25,169 @@ color: black;
 .navigation-contacts,
 .mail,
 .phone-number {
-  position: absolute;
   height: 16px;
-  top: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .navigation-studio {
-  left: 453px;
   width: 49px;
   color: #2196f3;
 }
 .navigation-portfolio {
-  left: 552px;
   width: 77px;
   color: #212121;
 }
 .navigation-contacts {
-  left: 679px;
   width: 68px;
   color: #212121;
 }
 .mail {
-  position: absolute;
   width: 135px;
-  left: 1078px;
   color: #2196f3;
 }
 .phone-number {
-  left: 1263px;
   width: 122px;
   color: #757575;
 }
 /*---header end---*/
 /*----first section---*/
 .first-section {
-position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
+  background-color: #2f303a;
 }
 .first-title {
-position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+  width: 696px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 .button {
-position: absolute;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .button-name {
-width: 136px;
-height: 30px;
-left: 732px;
-top: 440px;
-font-weight: bold;
-font-size: 16px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
+  width: 136px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 /*---------*/
 /*----features---*/
 .features {
-width: 1170px;
-height: 101px;
-left: 215px;
-top: 774px;
-}
-.feature-title-one, 
-.feature-title-two,
-.feature-title-three,
-.feature-title-four,
-.feature-text-one,
-.feature-text-two,
-.feature-text-three,
-.feature-text-four {
-
-width: 270px;
-height: 16px;
-font-weight: bold;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
-}
-.feature-text-one,
-.feature-text-two,
-.feature-text-three,
-.feature-text-four {
-
-
-height: 75px;
-width: 270px;
-line-height: 1.71;
-font-size: 14px;
-font-weight: normal;
-letter-spacing: 0.03em;
-color: #757575;
 }
 .feature-title-one,
-.feature-text-one {
-left: 215px;
-}
 .feature-title-two,
-.feature-text-two {
-left: 515px;
-}
 .feature-title-three,
-.feature-text-three {
-left: 815px;
-}
 .feature-title-four,
+.feature-text-one,
+.feature-text-two,
+.feature-text-three,
 .feature-text-four {
-left: 1115px;
+  width: 270px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.feature-text-one,
+.feature-text-two,
+.feature-text-three,
+.feature-text-four {
+  height: 75px;
+  width: 270px;
+  font-weight: 400;
+  line-height: 1.71;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  text-transform: lowercase;
+  color: #757575;
 }
 /*----features end---*/
 /*----portfolio-----*/
 .portfolio {
-background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .portfolio-title,
 .team-title {
-position: absolute;
-width: 376px;
-height: 42px;
-left: 612px;
-top: 969px;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+  width: 376px;
+  height: 42px;
+  font-size: 36px;
+  line-height: 1.66;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 /*---our team----*/
 .team-title {
-position: absolute;
-width: 264px;
-height: 42px;
-left: 668px;
-top: 1543px;
+  width: 264px;
+  height: 42px;
 }
 .name-title-igor,
 .name-title-olga,
 .name-title-nikolay,
 .name-title-mikhail {
-position: absolute;
-height: 19px;
-top: 1925px;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+  height: 19px;
+  top: 1925px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 .span-title-one,
 .span-title-two,
 .span-title-three,
 .span-title-four {
-width: 130px;
-height: 19px;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
+  width: 130px;
+  height: 19px;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.footer {
+  background: #2f303a;
+}
+.footer-studio-word {
+  color: #ffffff;
+}
+.address-text {
+  width: 231px;
+  height: 21px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.mail-text {
+  width: 231px;
+  height: 21px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.phone-number-footer {
+  width: 231px;
+  height: 21px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
