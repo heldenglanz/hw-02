@@ -2,9 +2,6 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
-.alert:hover {
-  text-decoration: underline;
-}
 /*--------header-------*/
 .header {
 }
@@ -54,6 +51,20 @@
   width: 122px;
   color: #757575;
 }
+.navigation-studio:hover,
+.navigation-portfolio:hover,
+.navigation-contacts:hover,
+.navigation-studio:focus,
+.navigation-portfolio:focus,
+.navigation-contacts:focus {
+  text-decoration: underline;
+}
+.navigation-studio:active,
+.navigation-portfolio:active,
+.navigation-contacts:active {
+  color: #2196f3;
+}
+
 /*---header end---*/
 /*----first section---*/
 .first-section {
