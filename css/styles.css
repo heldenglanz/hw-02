@@ -58,6 +58,7 @@
 .navigation-portfolio:focus,
 .navigation-contacts:focus {
   text-decoration: underline;
+  color: #2196F3;
 }
 .navigation-studio:active,
 .navigation-portfolio:active,
