@@ -81,6 +81,9 @@
   text-transform: uppercase;
   color: #ffffff;
 }
+.firsttitle {
+  display: none;
+}
 .button {
   width: 200px;
   height: 50px;
