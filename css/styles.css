@@ -6,6 +6,7 @@
   --button-color: #ffffff;
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway"; sans-serif;
+
 }
 body{
   font-family: var(--main-font)
@@ -81,7 +82,14 @@ body{
 .navigation-contacts:visited,
 .mail:visited {
 }
-
+.navigation-set,
+.features-points,
+.images-set,
+.team-set,
+.buttons-set,
+.footer-navigation-set {
+  list-style: none;
+}
 /*---header end---*/
 /*----first section---*/
 .first-section {
