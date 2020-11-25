@@ -102,28 +102,18 @@ body{
   display: none;
 }
 .button {
-  width: 200px;
-  height: 50px;
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 0px;
+  background: #F5F4FA;
   font-weight: bold;
   line-height: 1.88;
+  color: #212121;
 }
 .button:active,
 .button:hover,
 .button:focus
  {
 background: #2196F3;
-border-radius: 0px;
 color: var(--button-color);
 }
-.button-name:active,
-.button-name:focus,
-.button-name:hover {
-color: #FFFFFF;
-}
-
 /*---------*/
 /*----features---*/
 .features {
