@@ -109,14 +109,14 @@ body{
   border-radius: 0px;
   font-weight: bold;
   line-height: 1.88;
-  color: var(--button-color);
 }
 .button:active,
 .button:hover,
 .button:focus
  {
 background: #2196F3;
-border-radius: 0px
+border-radius: 0px;
+color: var(--button-color);
 }
 .button-name:active,
 .button-name:focus,
