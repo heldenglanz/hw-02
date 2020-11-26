@@ -1,6 +1,7 @@
 :root {
   font-family: "Roboto", "Raleway"; sans-serif;
   text-decoration:hover: underline;
+  a {text-decoration: none;}
   --accent-color: #2196F3;
   --second-text-color: #757575;
   --button-color: #ffffff;
