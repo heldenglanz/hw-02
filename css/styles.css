@@ -9,7 +9,7 @@
 
 }
 body{
-  font-family: var(--main-font)
+  font-family: var(--main-font);
   color: #000000;
   font-style: normal;
 }
@@ -73,8 +73,8 @@ body{
 .mail:hover,
 .mail:focus,
 .mail:active,
-.address-text
-.mail-text
+.address-text,
+.mail-text,
 .phone-number-footer {
   text-decoration: none;
   cursor: pointer;
@@ -195,7 +195,7 @@ color: var(--button-color);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--second-text-color)
+  color: var(--second-text-color);
 }
 .footer {
   background: #2f303a;
