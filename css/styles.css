@@ -16,14 +16,10 @@ body{
 /*--------header-------*/
 /*title*/
 .main-title {
-  width: 145px;
-  height: 31px;
   font-family: var(--secondary-font), oleo-script;
   font-weight: 700;
-  font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--accent-color);
 }
 .studio-word {
   color: black;
@@ -69,12 +65,18 @@ body{
 .navigation-contacts:focus,
 .navigation-studio:active,
 .navigation-portfolio:active,
-.navigation-contacts:active,
-.mail:hover,
-.mail:focus,
-.mail:active {
+.navigation-contacts:active {
   text-decoration: underline;
   color: var(--accent-color);
+  cursor: pointer;
+}
+.mail:hover,
+.mail:focus,
+.mail:active,
+.address-text
+.mail-text
+.phone-number-footer {
+  text-decoration: none;
   cursor: pointer;
 }
 .navigation-studio:visited,
@@ -88,7 +90,8 @@ body{
 .team-set,
 .buttons-set,
 .footer-navigation-set {
-  list-style: none;
+  list-style: none; 
+  text-decoration: none;
 }
 /*---header end---*/
 /*----first section---*/
@@ -204,28 +207,19 @@ color: var(--button-color);
   font-style: normal;
 }
 .address-text {
-  width: 231px;
-  height: 21px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
 }
 .mail-text {
-  width: 231px;
-  height: 21px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
 .phone-number-footer {
-  width: 231px;
-  height: 21px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
